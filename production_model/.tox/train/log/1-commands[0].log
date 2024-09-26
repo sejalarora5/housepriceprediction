@@ -1,0 +1,22 @@
+name: train
+run_id: commands[0]
+env HOME: /Users/na.mac2
+env TMPDIR: /var/folders/s_/7vhx57hj7s3751pnj64t68f00000gp/T/
+env LANG: en_US.UTF-8
+env TERM: xterm-256color
+env PATH: /Users/na.mac2/Desktop/Python/HousePrice/production_model/.tox/test_package/bin:/Library/Frameworks/Python.framework/Versions/3.12/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/Applications/Postgres.app/Contents/Versions/latest/bin:/Users/na.mac2/development/flutter/bin:/opt/anaconda3/bin:/opt/anaconda3/condabin:/Users/na.mac2/Library/Android/sdk/emulator:/Users/na.mac2/Library/Android/sdk/tools:/Users/na.mac2/Library/Android/sdk/tools/bin:/Users/na.mac2/Library/Android/sdk/platform-tools
+env PIP_DISABLE_PIP_VERSION_CHECK: 1
+env PYTHONIOENCODING: utf-8
+env PYTHONPATH: .
+env PYTHONHASHSEED: 0
+env TOX_ENV_NAME: train
+env TOX_WORK_DIR: /Users/na.mac2/Desktop/Python/HousePrice/production_model/.tox
+env TOX_ENV_DIR: /Users/na.mac2/Desktop/Python/HousePrice/production_model/.tox/test_package
+env VIRTUAL_ENV: /Users/na.mac2/Desktop/Python/HousePrice/production_model/.tox/test_package
+env COLUMNS: 154
+env LINES: 18
+metadata pid: 99834
+cwd: /Users/na.mac2/Desktop/Python/HousePrice/production_model
+allow: /Users/na.mac2/Desktop/Python/HousePrice/production_model/.tox/test_package/bin/*:train
+cmd: python regression_model/training_pipeline.py
+exit_code: 0
